@@ -1,0 +1,30 @@
+body { background-image:url("images/stadium.jpg"); height:700px; background-position:center; background-size:cover; }
+#wrapper {margin:auto; width:1024px;font-size:medium; color:white;}
+header,nav,article,section,footer {display:block;}
+header {height:50px; text-align:center; color:white;}
+footer {position: fixed; left: 0; bottom: 0;  width: 100%; height:40px; text-align:center;}
+h1 {font-size:22pt; font-weight:bold; text-align:center;}
+h2 {font-size:18pt; text-align:center;}
+p {font-size:14pt; text-align:center;}
+a {font-size:14pt;}
+nav {float:center; text-align:center; margin-left:250px; margin-right:155px;}
+#midcol {margin-left:155px; margin-right:155px; background:grey; text-align:center;}
+br.clear {clear:both}
+
+/*set the style for the side menu column */
+nav ul {float:center; width:150px; list-style-type:none;}
+
+/*set general side button styles */
+li.btn {width:115px; line-height:20px; margin-bottom:3px; text-align:center;}
+
+/* set general access (anchor) styles */
+li.btn a {display:nlock; width:200px; color:white; background:grey; font-family:arial; font-size:small; font-weight:bold; text-decoration:none;}
+
+/* mouseout */
+li.btn a {background:#1A9CE0; border:4px outset #AABAFF;}
+
+/* mouseover */
+li.btn a:hover {background:#0A4ADF; border:4px outset #8ABAFF;}
+
+/*mousedown */
+li.btn a:active {background:#AECBFF; border:4px inset #AECBFF;}
